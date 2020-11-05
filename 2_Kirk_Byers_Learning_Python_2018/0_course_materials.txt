@@ -1,0 +1,337 @@
+2018.02.01, week 1
+
+1. Introduction 
+Video https://vimeo.com/243034300
+Length is 7 minutes
+ 
+2. Why Learn Programing?
+Video https://vimeo.com/243905715
+Length is 1 minute
+ 
+3. Why Python?
+Video https://vimeo.com/243909371
+Length is 3 minutes
+ 
+4. Python2 versus Python3
+Video https://vimeo.com/243912631
+Length is 2 minutes
+ 
+5. Characteristics of Python
+Video https://vimeo.com/243918300
+Length is 5 minutes
+ 
+6. The Python Interpreter Shell
+Video https://vimeo.com/242411259
+Length is 9 minutes
+ 
+7. IPython
+Video https://vimeo.com/242460561
+Length is 4 minutes
+ 
+8. Printing to stdout and Reading from stdin
+Video https://vimeo.com/243028886
+Length is 6 minutes
+ 
+9. Dir, Help, and Variables​
+Video https://vimeo.com/243480156
+Length is 10 minutes
+ 
+10. Python Strings (Part 1)
+Video https://vimeo.com/243481392
+Length is 6 minutes
+ 
+11. Python Strings (Part 2)
+Video https://vimeo.com/243482081
+Length is 8 minutes
+ 
+12. Python Strings (Part 3)
+Video https://vimeo.com/243482871
+Length is 10 minutes
+ 
+13. Python String Formatting (Part 1)
+Video https://vimeo.com/243936489
+Length is 12 minutes
+ 
+14. Python String Formatting (Part 2)
+Video https://vimeo.com/243956669
+Length is 4 minutes 
+
+Additional Content:
+
+Google Python Course on Strings
+
+
+Automate the Boring Stuff with Python (Chapter 6 on Strings)     
+*Read up through the section on .join() and .split() string methods.
+
+2018.02.08, week 2
+
+1. Numbers
+Video https://vimeo.com/244128549
+Length is 9 minutes
+ 
+2. Files
+Video https://vimeo.com/244127459
+Length is 10 minute
+ 
+3. Lists
+Video https://vimeo.com/244257596
+Length is 6 minutes
+ 
+4. List Slices
+Video https://vimeo.com/244259492
+Length is 4 minutes  
+ 
+5. Lists are Mutable
+Video https://vimeo.com/244287000
+Length is 5 minutes
+ 
+6. Tuples
+Video https://vimeo.com/244153105
+Length is 3 minutes
+ 
+7. Using .join()
+​Video https://vimeo.com/245464488
+Length is 3 minutes
+ 
+8. sys.argv
+Video https://vimeo.com/245464766
+Length is 2 minutes
+ 
+9. Linters
+Video https://vimeo.com/245102246
+Length is 6 minutes
+
+Additional Content:
+
+Automate the Boring Stuff with Python (Chapter 4 on Strings)
+Up through the section named "Removing Values from Lists with del Statements"
+
+
+Dive Into Python, Introducing Lists
+
+
+2018.02.15, week 3
+
+1. Conditionals
+Video https://vimeo.com/245104620
+Length is 8 minutes
+ 
+2. Boolean Logic (Booleans, Ternary Operator, None)
+Video https://vimeo.com/245112558
+Length is 8 minutes
+ 
+3. Python For Loops
+Video https://vimeo.com/245466297
+Length is 5 minutes
+ 
+4. For Loops (Enumerate)​
+Video https://vimeo.com/245477015
+Length is 6 minutes
+ 
+5. For Loops (Break and Continue)
+Video https://vimeo.com/245478016
+Length is 9 minutes
+ 
+6. While Loops
+Video https://vimeo.com/245545155
+Length is 5 minutes
+ 
+7. Loops Miscellaneous
+Video https://vimeo.com/245552604
+Length is 6 minutes
+
+
+Additional Content:
+
+How To Write Conditional Statements in Python 3​​
+
+How To Construct For Loops in Python 3
+
+How To Construct While Loops in Python 3
+
+
+
+2018.02.23, week 4
+
+1. Dictionaries
+Video https://vimeo.com/246157566
+Length is 6 minutes 
+ 
+2. Dictionaries Methods
+Video https://vimeo.com/246163031
+Length is 7 minutes 
+ 
+3. Sets
+Video https://vimeo.com/246167477
+Length is 9 minutes  
+ 
+4. Exceptions
+Video https://vimeo.com/246174686
+Length is 15 minutes
+ 
+5. Regular Expressions (Part1)
+Video https://vimeo.com/246184715
+Length is 15 minutes
+ 
+6. Regular Expressions (Part2)
+Video https://vimeo.com/246532117
+Length is 7 minutes
+ 
+7. Regular Expressions (Part3)
+Video https://vimeo.com/246534450
+Length is 8 minutes
+ 
+8. Regular Expressions, Other Methods
+Video https://vimeo.com/246535038
+Length is 4 minutes
+
+Additional Content:
+
+Regular Expression Tutorial
+This is a good resource if you are new to regular expressions.
+
+Online Regular Expression Tester
+Select 'Python' on the left-hand side.
+
+Python Regular Expression HowTo
+This is a good overview of regular expression special characters.
+Start at the very top of the page and read through the 'Repeating Things' section.
+
+Automate the Boring Stuff - Dictionaries and Structuring Data​
+Read through the 'The GET() Method' section.
+
+
+
+2018.03.08, week 5
+
+1. Functions (Part1)
+Video link https://vimeo.com/247570174
+Length is 8 minute
+ 
+2. Functions (Part2)
+Video link https://vimeo.com/247581011
+Length is 11 minutes
+ 
+3. Misc Topics (Part1)
+Video link https://vimeo.com/247582360
+Length is 10 minutes
+ 
+4. Misc Topics (Part2)
+Video link https://vimeo.com/247655574
+Length is 8 minutes
+ 
+5. Python Debugger (pdb)
+Video link https://vimeo.com/247724017
+Length is 10 minutes
+
+
+Additional Content:
+
+A Byte of Python, Functions
+
+How to use the Python Debugger
+
+
+
+
+2018.03.15, week 6
+
+1. Netmiko Introduction and Basics 
+Video link https://vimeo.com/254569911
+Length is 8 minutes
+ 
+2. Netmiko Show Commands
+Video link https://vimeo.com/254578980
+Length is 13 minutes
+ 
+3. Netmiko and Prompting
+Video link https://vimeo.com/254587832
+Length is 12 minutes
+ 
+4. Netmiko and TextFSM
+Video link https://vimeo.com/254611876
+Length is 10 minutes
+ 
+5. Netmiko Config Changes
+Video link https://vimeo.com/254614073
+Length is 8 minutes
+ 
+6. Netmiko Troubleshooting
+Video link https://vimeo.com/254786724
+Length is 9 minutes
+
+
+
+Additional Content:
+
+Netmiko Readme
+
+Netmiko Examples
+
+Netmiko Tutorial
+This tutorial is a bit old, but still should be generally correct.
+
+
+
+2018.03.22, week 7
+
+1. Jinja2 Basics
+Video link https://vimeo.com/257997257
+Length is 7 minutes
+ 
+2. Jinja2 For-Loops and Conditionals
+Video link https://vimeo.com/257999160
+Length is 9 minute
+ 
+3. Jinja2 and CSV
+Video link https://vimeo.com/258142987
+Length is 5 minutes
+ 
+4. Jinja2 Dictionaries and Nested Loops
+Video link https://vimeo.com/258145504
+Length is 11 minutes
+ 
+5. YAML Basics
+Video link https://vimeo.com/258161182
+Length is 9 minutes
+ 
+6. YAML Part2
+Video link https://vimeo.com/258169427
+Length is 10 minutes
+ 
+7. Using Python to Write YAML
+Video link https://vimeo.com/258171559
+Length is 3 minutes
+ 
+8. JSON
+Video link https://vimeo.com/258178243
+Length is 5 minutes
+ 
+9. Managing Data Structures
+Video link https://vimeo.com/258181273
+Length is 5 minutes
+
+
+
+2018.03.29, week 8
+
+1. Importing Libraries
+Video link https://vimeo.com/259422351
+Length is 5 minutes
+ 
+2. sys.path and PYTHONPATH
+Video link https://vimeo.com/259423316
+Length is 7 minutes
+ 
+3. pip
+Video link https://vimeo.com/259424573
+Length is 7 minutes
+ 
+4. Virtual Environments
+Video link https://vimeo.com/259426537
+Length is 6 minutes
+ 
+5. Creating a Simple Python Module
+Video link https://vimeo.com/259427586
+Length is 4 minutes
