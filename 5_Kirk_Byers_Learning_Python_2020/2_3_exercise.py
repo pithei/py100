@@ -1,5 +1,7 @@
 """
-3. Read in the "show_arp.txt" file using the readlines() method. Use a list slice to remove the header line.
+2021.01.01
+3. Read in the "show_arp.txt" file using the readlines() method. 
+Use a list slice to remove the header line.
 
 Use pretty print to print out the resulting list to the screen, syntax is: 
 
@@ -16,3 +18,10 @@ Write this string containing the three ARP entries out to a file named "arp_entr
 
 
 """
+
+from pprint import pprint
+
+with open("show_arp.txt") as f:
+    data = f.readlines()
+
+pprint(data)
