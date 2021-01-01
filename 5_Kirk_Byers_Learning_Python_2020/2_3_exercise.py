@@ -12,7 +12,8 @@ Use the list .sort() method to sort the list based on IP addresses.
 
 Create a new list slice that is only the first three ARP entries.
 
-Use the .join() method to join these first three ARP entries back together as a single string using the newline character ('\n') as the separator.
+Use the .join() method to join these first three ARP entries back together as a 
+single string using the newline character ('\n') as the separator.
 
 Write this string containing the three ARP entries out to a file named "arp_entries.txt".
 
@@ -24,4 +25,44 @@ from pprint import pprint
 with open("show_arp.txt") as f:
     data = f.readlines()
 
+print("\nUse a list slice to remove the header line.")
+data = data[1:]
+
+print("\nUse the list .sort() method to sort the list based on IP addresses.")
+data.sort()
 pprint(data)
+
+print("\nCreate a new list slice that is only the first three ARP entries.")
+data_slice_1 = data[:3]
+pprint(data_slice_1)
+
+print("\nUse the .join() method to join these first three ARP entries back together")
+data_slice_1_joined = "\n".join(data_slice_1)
+print(data_slice_1_joined)
+
+
+with open("arp_entries.txt", "w") as f:
+    f.write(data_slice_1_joined)
+
+
+
+"""
+Solution, https://github.com/ktbyers/pynet/blob/master/learning_python/lesson2/exercise3.py
+from __future__ import print_function, unicode_literals
+from pprint import pprint
+
+with open("show_arp.txt") as f:
+    show_arp = f.readlines()
+
+# Remove header line
+show_arp = show_arp[1:]
+pprint(show_arp)
+
+show_arp.sort()
+# Grab only the first three entries
+my_entries = show_arp[:3]
+my_entries = "\n".join(my_entries)
+
+with open("arp_entries.txt", "wt") as f:
+    f.write(my_entries)
+"""
