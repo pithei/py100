@@ -1,0 +1,21 @@
+Source control
+	Git
+Terminals and shells
+	Bash
+Python, python virtual environments
+Node
+
+Text editors and IDEs
+	Visual Studio Code
+
+Development tools and clients
+	postman
+	ngrok
+	Google Chrome
+	OpenConnect
+
+Application container engine
+	Docker
+
+Ubuntu dependencies
+	snap
