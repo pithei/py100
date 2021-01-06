@@ -31,7 +31,7 @@ print("Serial Number: ", serial)
 print("Config Register: ", register)
 
 
-"""
+'''
 Solution, https://github.com/ktbyers/pynet/blob/master/learning_python/lesson4/exercise3.py
 
 from __future__ import unicode_literals, print_function
@@ -57,4 +57,4 @@ print("{:>20}: {:15}".format("OS Version", os_version))
 print("{:>20}: {:15}".format("Serial Number", serial_number))
 print("{:>20}: {:15}".format("Config Register", config_register))
 print()
-"""
+'''
