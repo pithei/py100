@@ -12,3 +12,27 @@ git status
 
 git diff <file> #shows changes between file in working dir and last commit
 git diff <commit ID> <file>
+
+# add multiple files to staging area
+git add <file path 1> <file path n>
+git add .
+
+
+#delete file from git repository
+git rm <file path 1> <file path n>
+
+#add specified files to be removed to the staging area without removing the files itself from working dir
+#This command will not work if the file is already in the staging area with changes.
+
+git rm --cached <file path 1> <file path n>
+
+# second option, equivalent of first one, but file will not be preserved in working dir
+rm <file path 1> <file path n>
+git add <file path 1> <file path n>
+
+git commit
+git commit -m "message"
+
+
+git push
+git push origin <branch name>
