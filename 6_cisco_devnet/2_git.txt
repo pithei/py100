@@ -57,3 +57,24 @@ git branch -d <branch name>
 
 # merge branches
 # During a merge, only the target branch is modified.
+#### FAST-FORWARD MERGE, is when the Git algorithm is able to apply the changes/commits from the source branches
+to the target branch automatically and without conflits.
+
+# Merge a branch into the clients current branch/repository
+git merge <branch name>  # <branch name> si the source branch that is being merged itnto the current branch
+
+
+# to merge a branch into a branch that is not the clients current branch/repository
+# 
+#
+git checkout <target branch name>
+git merge <source branch name>
+
+# OCTOPUS MERGE, Merge multiple branches into the clients current branch/repository
+git merge <branch name 1> .. <branch name n>
+
+### research unified diff, .diff file
+
+# GIT tshoot
+git config -l
+git remove -v
