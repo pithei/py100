@@ -6,3 +6,9 @@ git config --global user.email "<user's email>"
 git init <project dir>
 
 git clone <repository> [target directory]
+
+cd <project dir>
+git status
+
+git diff <file> #shows changes between file in working dir and last commit
+git diff <commit ID> <file>
