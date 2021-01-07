@@ -1,0 +1,3 @@
+git config --global key value
+git config --global user.name "<user's name>"
+git config --global user.email "<user's email>"
