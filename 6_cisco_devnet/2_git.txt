@@ -78,3 +78,5 @@ git merge <branch name 1> .. <branch name n>
 # GIT tshoot
 git config -l
 git remove -v
+
+test 2
