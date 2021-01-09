@@ -50,3 +50,19 @@ def main():
 if __name__ == '__main__':
     main()
 
+
+
+
+"""
+Solution, 
+# TRYIT: Create a random quote by calling generate_quote() and
+# generate_lucky_numbers() and then composing and returning the quote.
+
+quote = generate_quote()
+lucky_numbers = generate_lucky_numbers(how_many_lucky_numbers)
+
+return "{quote}\nLucky Numbers: {lucky_numbers}".format(
+    quote = quote,
+    lucky_numbers = lucky_numbers,
+)
+"""
