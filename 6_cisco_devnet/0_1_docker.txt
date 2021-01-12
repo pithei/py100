@@ -2,6 +2,23 @@ docker build
 docker run | docker container create
 docker images
 
+
+sudo docker ps
+
+
+# Start a Docker container locally
+# The -d parameter is short for --detach and says we want to run it in the background, 
+# and -P tells Docker to publish it on the ports that we exposed (in this case, 8080).
+# Notice also that when it comes to the ports, even though the container 
+# is listening on port 80, that’s just an internal port; Docker has specified an external por
+
+sudo docker run -d -P sample-app-image
+sudo docker run -d -P --name pythontest sample-app-image
+sudo docker run -d -p 8080:80 --name pythontest sample-app-image  # run with port forward, more predictable
+
+
+
+
 #Dockerfile example
 FROM ubuntu
 
