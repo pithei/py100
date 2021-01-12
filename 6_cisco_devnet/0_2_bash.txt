@@ -1,0 +1,6 @@
+
+developer:deployment > export USERNAME=bmacgyver
+developer:deployment > export PASSWORD=supersecret
+developer:deployment > source userrequest.sh
+Our user has a username of bmacgyver and a password of supersecret.
+developer:deployment > 

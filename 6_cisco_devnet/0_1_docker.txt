@@ -16,6 +16,29 @@ sudo docker run -d -P sample-app-image
 sudo docker run -d -P --name pythontest sample-app-image
 sudo docker run -d -p 8080:80 --name pythontest sample-app-image  # run with port forward, more predictable
 
+# login to container
+sudo docker exec -it pythontest /bin/sh
+# exit 
+
+sudo docker stop pythontest
+sudo docker rm pythontest
+sudo docker ps
+
+#### Save a Docker image to a registry { login, run cntainer, give tag, push container}
+sudo docker login
+sudo docker commit pythontest sample-app
+
+# Next we need to give this image a tag. The tag takes the form of:
+# <repository>/<imagename>:<tag>
+
+sudo docker tag sample-app devnetstudent/sample-app:v1
+sudo docker push devnetstudent/sample-app:v1
+sudo docker images
+
+
+
+
+
 
 
 
