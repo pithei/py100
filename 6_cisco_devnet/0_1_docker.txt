@@ -1,0 +1,27 @@
+docker build
+docker run | docker container create
+docker images
+
+#Dockerfile example
+FROM ubuntu
+
+
+
+# What we're doing here is building an image using a Dockerfile in the current directory (.) and giving a name, or "tag", of myubuntu.
+docker build -t myubuntu
+docker run -it myubuntu /bin/sh
+ls -al
+
+
+
+# Example Python environment with docker
+# ... invokes a Debian Linux-based default image from Docker Hub, 
+# with the latest version of Python installed. 
+# Let's assume your app is saved as sample-app.py. 
+# We can then tell Docker to create the /home/ubuntu directory and copy sample-app.py to the container:
+
+FROM python
+WORKDIR /home/ubuntu
+COPY ./sample-app.py /home/ubuntu/.
+RUN pip install flask
+CMD python /home/ubuntu/sample-app.py
