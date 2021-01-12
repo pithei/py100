@@ -25,3 +25,26 @@ WORKDIR /home/ubuntu
 COPY ./sample-app.py /home/ubuntu/.
 RUN pip install flask
 CMD python /home/ubuntu/sample-app.py
+EXPOSE 8080
+
+# Now that we’ve defined what we want our image to be, we need to go ahead and build it:
+sudo docker build -t sample-app-image .
+
+#https://docs.docker.com/engine/reference/builder/
+Currently a list of available commands looks like this:
+
+FROM
+MAINTAINER
+RUN
+CMD
+EXPOSE
+ENV
+COPY
+ENTRYPOINT
+VOLUME
+USER
+WORKDIR
+ARG
+ONBUILD
+STOPSIGNAL
+LABEL
