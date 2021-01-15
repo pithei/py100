@@ -1,5 +1,16 @@
 ansible-playbook
 ansible-doc
+ansible --version
+
+ansible-playbook -i servers checklocalinfo.yml
+ansible-doc aci_rest
+ansible-playbook -i hosts writefile.yml -e you=Cisco
+
+# Verify ansible files
+ansible-playbook main.yml --syntax-check
+ansible-playbook -i staging-servers.cfg main.yml -check
+ansible-playbook -i staging-servers.cfg main.yml -vvvv
+
 
 Tool	Description
 Module	Code to perform an action on a managed device. Often written in Python.
