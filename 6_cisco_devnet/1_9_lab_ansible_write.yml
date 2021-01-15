@@ -1,0 +1,22 @@
+# hello-template.j2 content : Hello {{you}}
+# file name writefile.yml
+# ansible-playbook -i hosts writefile.yml -e you=Cisco
+---
+- name: Write a configuration file
+  hosts: devenv
+  connection: local
+  tasks:
+
+    - name: "Create a new file"
+      file:
+        path: /home/developer/src/ansible/hello
+        state: touch
+    - name: "Update file permissions"
+      file:
+        path: /home/developer/src/ansible/hello
+        mode: 700
+    - name: "Update file content from template"
+      template:
+        src: /home/developer/src/ansible/hello-template.j2
+        dest: /home/developer/src/ansible/hello
+        mode: 0644
