@@ -1,0 +1,10 @@
+ansible-playbook
+ansible-doc
+
+Tool	Description
+Module	Code to perform an action on a managed device. Often written in Python.
+Task	An action pointing to a given module. Can accept argument and actions.
+Play	A set of Tasks to a host or group of hosts.
+Playbook	A set of Plays, written in a YAML file.
+Role	A set of Playbooks that can repeatedly execute a standard configuration. You can assign multiple roles to a single host.
+Inventory	A set of devices on which you run playbooks.
