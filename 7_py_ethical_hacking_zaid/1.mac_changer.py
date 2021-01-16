@@ -20,7 +20,10 @@ new_mac = "00:11:22:33:44:66"
 # subprocess.call("COMMAND", shell = Ture)
 
 #subprocess.call("ipconfig /all", shell=True)
+print("*" * 100)
 
+print("[+] Getting mac addresses of interfaces!")
+print("*" * 100)
 subprocess.call("getmac -v", shell=True)
 
 #print(data)
