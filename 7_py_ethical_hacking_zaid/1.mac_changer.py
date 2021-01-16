@@ -28,6 +28,10 @@ print("*" * 100)
 
 print("[+] Getting mac addresses of interfaces!")
 print("*" * 100)
-subprocess.call("getmac -v", shell=True)
+#subprocess.call("getmac -v", shell=True)
 
 #print(data)
+# in order to validate user input and avoid injections, we can invoke subrocess differently
+# does nor work
+subprocess.call(["getmac", "-v"])
+
