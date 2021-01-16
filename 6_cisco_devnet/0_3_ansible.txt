@@ -19,3 +19,7 @@ Play	A set of Tasks to a host or group of hosts.
 Playbook	A set of Plays, written in a YAML file.
 Role	A set of Playbooks that can repeatedly execute a standard configuration. You can assign multiple roles to a single host.
 Inventory	A set of devices on which you run playbooks.
+
+
+pyats logs list
+pyats logs view
