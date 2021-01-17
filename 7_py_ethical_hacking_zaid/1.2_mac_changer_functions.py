@@ -1,7 +1,10 @@
 '''
 2021.01.17
-parse and validate input arguments from user
-optparse module will be used
+Algorithm:
+    execute and read ifconfig
+    read the mac address from output
+    check if mac in ifconfig is what the user requested
+    print appropriate message
 '''
 
 import subprocess
