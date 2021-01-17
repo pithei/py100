@@ -59,7 +59,17 @@ def get_current_mac(interface):
         pass
         #print("No macs found in input")
 
-
 argument_list = get_arguments()
-current_mac = get_current_mac(argument_list[0].interface)
-print("Current mac", current_mac)
+interface = argument_list[0].interface
+new_mac = argument_list[0].new_mac
+
+print("Setting up new mac :) ")
+change_mac(interface, new_mac)
+
+print("Verifying mac change")
+current_mac = get_current_mac(interface)
+
+if current_mac == new_mac:
+    print("Current mac is changed", current_mac)
+else:
+    print("Mac was not changed.")
