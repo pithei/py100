@@ -13,6 +13,6 @@ parser.add_option("-i", "--interface", dest="interface", help="Defined interface
 parser.add_option("-m", "--mac", dest="new_mac", help="New mac address")
 
 data = parser.parse_args()
-print(data[0].interface)
-print(data[0].new_mac)
 
+print(data[0].interface,)
+print(data[0].new_mac)
