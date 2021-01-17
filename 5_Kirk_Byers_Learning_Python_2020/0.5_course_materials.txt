@@ -3,6 +3,16 @@ Tips
    Unnamed argument for function must be provided before named ones
    print_ip("1.2.3.4", "AA:BB:CC:DD:EE:FF", password="admin", username="admin")
 
+   pass list/dictas agruments to function
+   argument_list = ["1.2.3.4",  "AA:BB:CC:DD:EE:FF", "admin", "admin" ]
+   print_ip(*argument_list) # for list
+   print_ip(**argument_list) # for dictionary
+
+   List comprehention
+   data_list = [1, 2, 3, 4, 5]
+   [x**2 for x in data_list]
+
+
 
 Note: There is a table of contents for each video at the bottom of this email including timestamps to where various content is located. This should be helpful in navigating the videos.
 
