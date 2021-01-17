@@ -1,4 +1,9 @@
 
+Tips
+   Unnamed argument for function must be provided before named ones
+   print_ip("1.2.3.4", "AA:BB:CC:DD:EE:FF", password="admin", username="admin")
+
+
 Note: There is a table of contents for each video at the bottom of this email including timestamps to where various content is located. This should be helpful in navigating the videos.
 
 
