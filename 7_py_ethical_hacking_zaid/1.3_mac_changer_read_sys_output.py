@@ -36,8 +36,19 @@ def change_mac(interface, new_mac):
     #subprocess.call(["ifconfig", interface, "up"])
 
 def get_current_mac(interface):
+    # print(interface)
     # search for mac addresses in interface details ( data taken from linux vm )
     # save ouptut from system command to a variable. PReferably, it should get mac from interface command, ip a show dev {interface}
+    # rewrite interface part, since code is run on windows box
+    interface = """root@vmdev:/home/user# ip a show dev enp0s3
+                    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+                        link/ether 08:00:27:83:a1:c2 brd ff:ff:ff:ff:ff:ff
+                        inet 192.168.88.10/24 brd 192.168.88.255 scope global dynamic noprefixroute enp0s3
+                        valid_lft 396sec preferred_lft 396sec
+                        inet6 fe80::6295:6731:d9ef:8967/64 scope link noprefixroute
+                        valid_lft forever preferred_lft forever
+                    root@vmdev:/home/user#
+                    """
     mac_details = subprocess.check_output(["getmac", "-v"])
     mac_details = mac_details.decode("UTF-8")
     mac_addresses = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", interface)
@@ -48,18 +59,7 @@ def get_current_mac(interface):
         pass
         #print("No macs found in input")
 
+
 argument_list = get_arguments()
-
-
-interface = """root@vmdev:/home/user# ip a show dev enp0s3
-2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 08:00:27:83:a1:c2 brd ff:ff:ff:ff:ff:ff
-    inet 192.168.88.10/24 brd 192.168.88.255 scope global dynamic noprefixroute enp0s3
-       valid_lft 396sec preferred_lft 396sec
-    inet6 fe80::6295:6731:d9ef:8967/64 scope link noprefixroute
-       valid_lft forever preferred_lft forever
-root@vmdev:/home/user#
-"""
-
-current_mac = get_current_mac(interface)
+current_mac = get_current_mac(argument_list[0].interface)
 print("Current mac", current_mac)
