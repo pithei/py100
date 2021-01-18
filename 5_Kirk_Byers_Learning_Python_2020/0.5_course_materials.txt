@@ -13,6 +13,13 @@ Tips
    [x**2 for x in data_list]
 
 
+   lambda functions (one line disposable functions )
+   first is the argument whitch we will pass in ( x )
+   after : there is return value
+   f = lambda x: x**2
+   f(10)
+
+
 
 Note: There is a table of contents for each video at the bottom of this email including timestamps to where various content is located. This should be helpful in navigating the videos.
 
