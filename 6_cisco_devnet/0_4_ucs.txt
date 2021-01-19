@@ -1,0 +1,2 @@
+# curl example for ucs director
+curl  -v -X POST -H 'X-Cloupia-Request-Key:5CF4C115F0034B189616B2B8EBA0F220' -g 'http://172.17.32.75/app/api/rest?formatType=json&opName=userAPISubmitWorkflowServiceRequest&opData={param0:"TestWorkFlowFromAPI",param1:{"list":[{"name":"A1","value":"Hello"},{"name":"A2","value":"World"}]},param2:-1}'
