@@ -1,5 +1,5 @@
 """
-Dummy commit .. vč
+Dummy commit .. v2, v3
 Algorithm
     Discover all devices on the network
     Display their IP addresses
